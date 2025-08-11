@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background: linear-gradient(135deg, blue, red); */
+    background-color: #1a1a1a;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card {
+    position: relative;
+    height: 270px;
+    width: 350px;
+    background-color: rgb(211, 211, 211);
+    border-radius: 10px;
+    color: rgb(48, 48, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login{
+    font-size: 25px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+    top: 50px;
+    position: absolute;
+    }
+
+.card div {
+    margin-bottom: 10px;
+}
+
+.email input {
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 3em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(211, 206, 206);
+    margin-bottom: 7px;
+    margin-top: 85px;
+}
+
+.password input {
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 3em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(211, 206, 206);
+    margin-bottom: 7px;
+}
+.button button{
+    text-decoration: none;
+    border: none;
+    width: 300px;
+    height: 3em;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgb(43, 43, 255);
+    color: white;
+}
